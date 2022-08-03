@@ -16,9 +16,9 @@
     <color name="primaryText">#212121</color>
     <color name="secondaryText">#757575</color>
     <color name="dividerColor">#BDBDBD</color>
-
-
-
+    <color name="bgActivity">#e0f7fa</color>
+    <color name="cyan900">#006064</color>
+    <color name="cyan100">#b2ebf2</color>
 
 
 </resources>

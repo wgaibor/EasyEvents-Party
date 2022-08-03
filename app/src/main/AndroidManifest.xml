@@ -16,6 +16,9 @@
         android:theme="@style/Theme.EasyEventsParty"
         tools:targetApi="31">
         <activity
+            android:name=".activity.ListadoItemActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity

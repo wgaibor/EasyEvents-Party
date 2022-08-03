@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Lemas/ProgramacionMovil/_ProyectoTitulacion/Ronald/EasyEvents-Party/app/src/main/res/drawable/ic_app.xml" value="0.2345" />
+        <entry key="..\:/Lemas/ProgramacionMovil/_ProyectoTitulacion/Ronald/EasyEvents-Party/app/src/main/res/drawable/ic_chef.xml" value="0.215" />
+        <entry key="..\:/Lemas/ProgramacionMovil/_ProyectoTitulacion/Ronald/EasyEvents-Party/app/src/main/res/drawable/ic_musica_icon.xml" value="0.215" />
+        <entry key="..\:/Lemas/ProgramacionMovil/_ProyectoTitulacion/Ronald/EasyEvents-Party/app/src/main/res/layout/activity_listado_item.xml" value="0.2608695652173913" />
         <entry key="..\:/Lemas/ProgramacionMovil/_ProyectoTitulacion/Ronald/EasyEvents-Party/app/src/main/res/layout/activity_login.xml" value="0.12552083333333333" />
-        <entry key="..\:/Lemas/ProgramacionMovil/_ProyectoTitulacion/Ronald/EasyEvents-Party/app/src/main/res/layout/activity_main.xml" value="0.12552083333333333" />
-        <entry key="..\:/Users/rfabr/Documents/Tecnologico/4to semestre/Programacion movil/ProyectoTitulacion/proyecto/EasyEvents-Party/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Lemas/ProgramacionMovil/_ProyectoTitulacion/Ronald/EasyEvents-Party/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Lemas/ProgramacionMovil/_ProyectoTitulacion/Ronald/EasyEvents-Party/app/src/main/res/layout/items_app.xml" value="0.2608695652173913" />
       </map>
     </option>
   </component>
