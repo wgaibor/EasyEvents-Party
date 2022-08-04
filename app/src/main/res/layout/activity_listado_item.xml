@@ -10,7 +10,20 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_Item"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+        <Button
+            android:id="@+id/btn_crear_servicio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_5dp"
+            android:text="@string/crea_servicio"/>
+    </LinearLayout>
 </LinearLayout>

@@ -3,4 +3,11 @@
     <string name="chef_cocinero">Chef Cocinero</string>
     <string name="musica_dj"><![CDATA[Música & DJ]]></string>
     <string name="seleccione_evento">Seleccione lo que necesitas para tu evento:</string>
+    <string name="base_url">http://192.168.100.9:3005/</string>
+    <string name="crea_servicio">Crear Servicio</string>
+    <string name="nombre">Nombre</string>
+    <string name="precio">Precio</string>
+    <string name="imagen_url">imagen</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
 </resources>

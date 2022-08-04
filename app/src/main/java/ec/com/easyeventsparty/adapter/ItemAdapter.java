@@ -13,12 +13,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import ec.com.easyeventsparty.R;
+import ec.com.easyeventsparty.entity.ServicioEntity;
+import ec.com.easyeventsparty.utils.Utils;
 
 public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder>{
-    private List<String> lstItems;
+    private List<ServicioEntity> lstItems;
     private Context _ctx;
 
-    public ItemAdapter(List<String> lstItems, Context _ctx) {
+    public ItemAdapter(List<ServicioEntity> lstItems, Context _ctx) {
         this.lstItems = lstItems;
         this._ctx = _ctx;
     }
@@ -34,7 +36,9 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-
+        ServicioEntity servicioEntity = lstItems.get(position);
+        holder.tvNombreCocinero.setText(servicioEntity.getNombre());
+        Utils.loadImage(servicioEntity.getImagen(), holder.ivImagenCocinero);
     }
 
     @Override
